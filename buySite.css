@@ -101,7 +101,7 @@ height:55px;
 	overflow:hidden;
 }
 
-.R6Option{
+#R6Option{
 	display:flex;
 	justify-content:space-evenly;
 	padding-top:50px;
@@ -123,7 +123,7 @@ height:55px;
 	
 }
 
-.LOLOption{
+#LOLOption{
 	display:flex;
 	justify-content:space-evenly;
 	padding-top:50px;
@@ -144,7 +144,7 @@ height:55px;
 	
 }
 
-.ApexOption{
+#ApexOption{
 	display:flex;
 	justify-content:space-evenly;
 	padding-top:50px;
