@@ -173,8 +173,12 @@ height:55px;
   
   .DuoBoost, .AccountBoost, .AccountBuying {
     width: 100%;
-    max-width
-}
+    max-width:50%;
+ }
+	
+
+	
+	
 }
 
 @media only screen and (max-width: 600px) {
@@ -195,7 +199,7 @@ height:55px;
   
   .DuoBoost, .AccountBoost, .AccountBuying {
     width: 100%;
-    max-width
+    max-width:50%;
 }
 }
 
@@ -217,6 +221,6 @@ height:55px;
   
   .DuoBoost, .AccountBoost, .AccountBuying {
     width: 100%;
-    max-width
+    max-width:50%;
 }
 }
