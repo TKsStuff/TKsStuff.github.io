@@ -156,6 +156,9 @@ height:55px;
 }
 
 @media only screen and (max-width: 450px) {
+	p{
+		font-size:25%;
+	}
   .HomePage {
     display: flex;
     flex-direction: column;
@@ -184,6 +187,9 @@ height:55px;
 }
 
 @media only screen and (max-width: 600px) {
+	p{
+		font-size:25%;
+	}
   .HomePage {
     display: flex;
     flex-direction: column;
@@ -207,6 +213,9 @@ height:55px;
 }
 
 @media only screen and (max-width: 1000px) {
+	p{
+		font-size:25%;
+	}
   .HomePage {
     display: flex;
     flex-direction: column;
