@@ -171,9 +171,11 @@ height:55px;
     flex-direction: column;
   }
   
-  .DuoBoost, .AccountBoost, .AccountBuying {
+ .DuoBoost, .AccountBoost, .AccountBuying {
     width: 100%;
-    max-width:50%;
+    max-width: 100%;
+    height: auto;
+  }
  }
 	
 
@@ -197,9 +199,11 @@ height:55px;
     flex-direction: column;
   }
   
-  .DuoBoost, .AccountBoost, .AccountBuying {
+   .DuoBoost, .AccountBoost, .AccountBuying {
     width: 100%;
-    max-width:50%;
+    max-width: 100%;
+    height: auto;
+  }
 }
 }
 
@@ -221,6 +225,8 @@ height:55px;
   
   .DuoBoost, .AccountBoost, .AccountBuying {
     width: 100%;
-    max-width:50%;
+    max-width: 100%;
+    height: auto;
+  }
 }
 }
