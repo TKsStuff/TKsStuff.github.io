@@ -155,16 +155,25 @@ height:55px;
 	overflow:hidden;
 }
 
-
 @media only screen and (max-width: 400px) {
-  .homePage {
-    display:flex;
-	  flex-direction:column;
-	  flex-wrap:wrap;
+  .HomePage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
-	.previewImg{
-	width:50px;
-		heigth:100px;
-	}
+  
+  .previewImg {
+    width: 50px;
+    height: 100px;
+  }
+  
+  .ProductOption {
+    flex-direction: column;
+  }
+  
+  .DuoBoost, .AccountBoost, .AccountBuying {
+    width: 100%;
+    max-width
+}
 }
 
