@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+
+
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	
+}
+body{
+
+background-color:#343647;
+	
+}
+
+
+.navBar {
+	display:flex;
+  justify-content:space-evenly;
+  background-color: #23242E;
+  padding:20px;
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+
+.navBar a {
+	display:flex;
+	flex-wrap:nowrap;
+	font-size:20px;
+	text-decoration:none;
+	color:white;
+	margin:7px;
+	
+}
+
+
+
+.links{
+	display:inline-block;
+	position:relative
+}
+.links::after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:2px;
+	bottom:0;
+	left:0;
+	background-color:white;	
+	transform-origin:bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.links:hover::after{
+	transform:scaleX(1);
+	transform-origin: bottom left;
+
+
+
+}	
+
+.pageLinks{
+	text-decoration:none;
+	color:white;
+}
+
+.HomePage{
+	
+	
+}
+
+
+
+.prodIMG{
+	width:250px;
+	height:55px;
+	
+}
+
+.IMG{
+width:250px;
+height:55px;
+}
+
+.BarPos{
+	padding-top: 10px;
+	display:flex;
+	justify-content:center;
+}
+
+.ProdBar{
+	display:flex;
+	justify-content:center;
+	position:relative;
+	max-width:auto;
+	background-color:#1F2236;
+	border-radius:20px;
+	overflow:hidden;
+}
+
+.R6Option{
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:50px;
+	flex-wrap:wrap;
+}
+
+.R6service{
+	
+	display:flex;
+	text-align:center;
+	width:15%;
+	flex-direction:column;
+	max-width:300;
+	border-style:groove;
+	border-color:#0000FF;
+	
+	
+	
+}
+
+.LOLOption{
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:50px;
+	flex-wrap:wrap;
+	
+}
+
+.LOLservice{
+	
+	display:flex;
+	text-align:center;
+	width:15%;
+	flex-direction:column;
+	max-width:300;
+	border-style:groove;
+	border-color:#00FF00;
+	
+}
+
+.ApexOption{
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:50px;
+	flex-wrap:wrap;
+	
+}
+
+.Apexservice{
+	
+	display:flex;
+	text-align:center;
+	width:15%;
+	flex-direction:column;
+	max-width:300;
+	border-style:groove;
+	border-color:#FF0000;
+	
+}
