@@ -115,6 +115,7 @@ height:55px;
 	width:15%;
 	flex-direction:column;
 	max-width:300;
+	height:500px;
 	border-style:groove;
 	border-color:#0000FF;
 	
@@ -137,6 +138,7 @@ height:55px;
 	width:15%;
 	flex-direction:column;
 	max-width:300;
+	height:500px;
 	border-style:groove;
 	border-color:#00FF00;
 	
@@ -157,6 +159,7 @@ height:55px;
 	width:15%;
 	flex-direction:column;
 	max-width:300;
+	height:500px;
 	border-style:groove;
 	border-color:#FF0000;
 	
